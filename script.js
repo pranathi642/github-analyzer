@@ -26,6 +26,7 @@ async function displayData(username){
         let error=document.createElement("p");
         error.innerText="The user does not exist!";
         results.appendChild(error);
+        error.className="error";
         return;
     }
     //console.log(data);
