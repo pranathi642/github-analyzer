@@ -79,14 +79,22 @@ img{
     font-weight: 600;
 }
 .repos{
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5px;
 }
+.error{
+    text-align: center;
+}
 .repo{
-    width: 95%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
